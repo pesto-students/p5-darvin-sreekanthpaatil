@@ -15,3 +15,15 @@ What is the main functionality of the browser?
       - broswer usually makes an API request for the same
    - The server handles the request and sends back a HTTP response.
    - The browser displays the HTML content (for HTML responses, which is the most common).
+
+High Level Components of a browser?
+---------------------------------------------------------------------------
+1. **The User Interface**: The user interface is the space where User interacts with the browser. It includes the address bar, back and next buttons, home button, refresh and stop, bookmark option, etc. Every other part, except the window where requested web page is displayed, comes under it.
+2. **The Browser Engine**: The browser engine works as a bridge between the User interface and the rendering engine. According to the inputs from various user interfaces, it queries and manipulates the rendering engine.
+3. **The Rendering Engine**: The rendering engine, as the name suggests is responsible for rendering the requested web page on the browser screen. The rendering engine interprets the HTML, XML documents and images that are formatted using CSS and generates the layout that is displayed in the User Interface. However, using plugins or extensions, it can display other types data also. Different browsers user different rendering engines:
+   - Internet Explorer: Trident
+   - Firefox & other Mozilla browsers: Gecko
+   - Chrome & Opera 15+: Blink
+   - Chrome (iPhone) & Safari: Webkit
+
+
