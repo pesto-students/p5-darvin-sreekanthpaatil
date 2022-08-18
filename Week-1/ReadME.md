@@ -1,4 +1,4 @@
-Excerscise 1.1:
+Exercise 1.1:
 ---------------------------------------------------------------------------------------------------------------------------------------
 When a user enters an URL in the browser, how does the browser fetch the desiredresult ? Explain this with the below in mind and Demonstrate this by drawing a diagramfor the same
 
